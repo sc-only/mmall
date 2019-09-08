@@ -1,7 +1,10 @@
 package com.mmall.common;
 
-import java.io.Serializable;
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
 
+import java.io.Serializable;
+@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class ServerResponse<T> implements Serializable {
     private int status;
     private String msg;
@@ -23,7 +26,7 @@ public class ServerResponse<T> implements Serializable {
         this.status=status;
         this.msg=msg;
     }
-
+    @JsonIgnore
     public boolean isSuccess(){
         return this.status==ResponseCode.SUCCESS.getCode();
     }
@@ -51,6 +54,10 @@ public class ServerResponse<T> implements Serializable {
     public static <T> ServerResponse<T> createBySuccess(String msg,T data){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),data,msg);
     }
-
-
+    public static <T> ServerResponse<T> createByErrorMessage(String errorMessage){
+        return new ServerResponse<T>(ResponseCode.ERROR.getCode(),errorMessage);
+    }
+    public static <T> ServerResponse<T> createByErrorCodeMessage(int errorCode,String errorMessage){
+        return new ServerResponse<T>(errorCode,errorMessage);
+    }
 }
