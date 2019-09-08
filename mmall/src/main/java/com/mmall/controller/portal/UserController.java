@@ -1,5 +1,6 @@
 package com.mmall.controller.portal;
 
+import com.mmall.common.Const;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
@@ -28,8 +29,10 @@ public class UserController {
     @ResponseBody
     public ServerResponse<User> login(String username, String password, HttpSession session){
         //service->mybatis->dao
-
-
-        return null;
+        ServerResponse<User> response =iUserService.login(username,password);
+        if(response.isSuccess()){
+            session.setAttribute(Const.CURRENT_USER,response.getData());
+        }
+        return response;
     }
 }
