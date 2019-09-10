@@ -46,7 +46,7 @@ public class UserServiceImpl implements IUserService {
         if(resultCount==0){
             return ServerResponse.createByErrorMessage("注册失败");
         }
-        return ServerResponse.createBySuccessMessage("注册成功")
+        return ServerResponse.createBySuccessMessage("注册成功");
     }
 
     public ServerResponse<String> checkValid(String str,String type){
@@ -68,5 +68,19 @@ public class UserServiceImpl implements IUserService {
             return ServerResponse.createByErrorMessage("参数错误");
         }
         return ServerResponse.createBySuccessMessage("校验成功");
+    }
+
+    public ServerResponse selectQuestion(String username){
+        int resultCount = userMapper.checkUsername();
+        ServerResponse validResponse=this.checkValid(username,Const.USERNAME);
+        if(validResponse.isSuccess()){
+            //用户不存在
+            return ServerResponse.createByErrorMessage("用户不存在");
+        }
+        String question=userMapper.selectQuestionByUsername(username);
+        if(StringUtils.isNotBlank(question)){
+            return ServerResponse.createBySuccess(question);
+        }
+        return ServerResponse.createByErrorMessage("找回密码的问题是空的");
     }
 }

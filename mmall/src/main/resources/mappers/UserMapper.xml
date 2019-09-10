@@ -152,12 +152,12 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
 
-  <select id="checkUsername" parameterType="String" resultType="int">
+  <select id="checkUsername" parameterType="string" resultType="int">
     select count(1) from mmall_user
     where username=#{username}
   </select>
 
-  <select id="checkEmail" parameterType="String" resultType="int">
+  <select id="checkEmail" parameterType="string" resultType="int">
     select count(1) from mmall_user
     where email=#{email}
   </select>
@@ -168,5 +168,12 @@
     from mmall;
     where username=#{username}
     and password=#{password}
+  </select>
+
+  <select id="selectQuestionByUsername" resultType="string" parameterType="string">
+    select
+    question
+    from mmall_user
+    where username =#{username}
   </select>
 </mapper>
