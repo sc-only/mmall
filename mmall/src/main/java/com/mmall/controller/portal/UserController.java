@@ -75,7 +75,8 @@ public class UserController {
     public ServerResponse<String> forgetRestPassword(String username,String passwordNew,String forgetToken){
         return iUserService.forgetResetPassword(username,passwordNew,forgetToken);
     }
-
+    @RequestMapping(value = "reset_password.do",method = RequestMethod.GET)
+    @ResponseBody
     public ServerResponse<String> resetPassword(HttpSession session,String passwordOld,String passwordNew){
         User user =(User)session.getAttribute(Const.CURRENT_USER);
         if(user==null){
