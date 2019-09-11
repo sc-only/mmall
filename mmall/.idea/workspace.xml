@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="mmall:war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1162259-230b-4cf0-b603-aa4a7078ee9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" afterDir="false" />
+    <list default="true" id="e27726cf-b1b9-41cf-88b4-5e198508640c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/PayInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/PayInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -52,43 +56,27 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1QRR9rYWO2F8gv2g50og20pk4p8" />
+  <component name="ProjectId" id="1QgBNyejTKRuYaTteGJaOXYYLZY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mmall/service" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\resources" />
-      <recent name="F:\Work_For_University\电商页面学习实践\源码\src\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\java\com\mmall\util" />
+      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\java\com\mmall\service" />
+      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\java\com\mmall\common" />
       <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\resources" />
-      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\webapp\WEB-INF" />
+      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\java\com\mmall\dao" />
+      <recent name="F:\Work_For_University\电商页面学习实践\git\mmall\src\main\java\com\mmall\service\Impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,22 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="ServerResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mmall.common.ServerResponse" />
-      <module name="mmall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/mmall_war/" />
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mmall_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mmall:war">
@@ -128,8 +103,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mmall" />
-        <option name="HTTP_PORT" value="8088" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mmall_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -137,7 +111,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51744" />
+        <option name="DEBUG_PORT" value="54146" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -187,42 +161,23 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="源码:war" />
           <artifact name="mmall:war" />
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ServerResponse" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1162259-230b-4cf0-b603-aa4a7078ee9d" name="Default Changelist" comment="" />
-      <created>1567731273152</created>
+      <changelist id="e27726cf-b1b9-41cf-88b4-5e198508640c" name="Default Changelist" comment="" />
+      <created>1568182322980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567731273152</updated>
-      <workItem from="1567731276067" duration="760000" />
-      <workItem from="1567732533239" duration="78000" />
-      <workItem from="1567734499463" duration="3048000" />
-      <workItem from="1567740375217" duration="244000" />
-      <workItem from="1567740987766" duration="9563000" />
-      <workItem from="1567752253056" duration="10552000" />
-      <workItem from="1567828334777" duration="50000" />
-      <workItem from="1567828449069" duration="2659000" />
-      <workItem from="1567832432118" duration="20000" />
-      <workItem from="1567832458830" duration="1473000" />
-      <workItem from="1567841183870" duration="676000" />
-      <workItem from="1567915153358" duration="4526000" />
-      <workItem from="1568002971586" duration="598000" />
-      <workItem from="1568099833850" duration="855000" />
-      <workItem from="1568121326482" duration="3388000" />
+      <updated>1568182322980</updated>
+      <workItem from="1568182324485" duration="314000" />
+      <workItem from="1568182833838" duration="3997000" />
     </task>
     <servers />
   </component>
@@ -241,8 +196,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
