@@ -92,6 +92,7 @@ public class UserController {
         }
         user.setId((currentUser.getId()));
         user.setUsername(currentUser.getUsername());
+        user.setRole(currentUser.getRole());
         ServerResponse<User> response =iUserService.updateInformation(user);
         if(response.isSuccess()){
             session.setAttribute(Const.CURRENT_USER,response.getData());

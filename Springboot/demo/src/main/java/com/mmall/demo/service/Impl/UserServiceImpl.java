@@ -162,6 +162,7 @@ public class UserServiceImpl implements IUserService {
         User updateUser = new User();
         updateUser.setId(user.getId());
         updateUser.setEmail(user.getEmail());
+        updateUser.setRole(user.getRole());
         updateUser.setPhone(user.getPhone());
         updateUser.setQuestion(user.getQuestion());
         updateUser.setAnswer(user.getAnswer());
