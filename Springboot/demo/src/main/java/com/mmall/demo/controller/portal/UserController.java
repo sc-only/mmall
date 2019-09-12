@@ -1,10 +1,9 @@
-package com.mmall.controller.portal;
-
-import com.mmall.common.Const;
-import com.mmall.common.ResponseCode;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.User;
-import com.mmall.service.IUserService;
+package com.mmall.demo.controller.portal;
+import com.mmall.demo.common.Const;
+import com.mmall.demo.common.ResponseCode;
+import com.mmall.demo.common.ServerResponse;
+import com.mmall.demo.pojo.User;
+import com.mmall.demo.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -77,7 +76,7 @@ public class UserController {
     }
     @RequestMapping(value = "reset_password.do",method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<String> resetPassword(HttpSession session,String passwordOld,String passwordNew){
+    public ServerResponse<String> resetPassword(HttpSession session, String passwordOld, String passwordNew){
         User user =(User)session.getAttribute(Const.CURRENT_USER);
         if(user==null){
             return ServerResponse.createByErrorMessage("用户未登陆");
@@ -86,7 +85,7 @@ public class UserController {
     }
     @RequestMapping(value = "update_information.do",method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<User> update_information(HttpSession session,User user){
+    public ServerResponse<User> update_information(HttpSession session, User user){
         User currentUser =(User)session.getAttribute(Const.CURRENT_USER);
         if(currentUser==null){
             return ServerResponse.createByErrorMessage("用户未登陆");

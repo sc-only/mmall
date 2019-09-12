@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mmall:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e27726cf-b1b9-41cf-88b4-5e198508640c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/common/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/common/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/common/TokenCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/config/dao/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/config/dao/SessionFactoryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/config/service/TransactionManagementConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/controller/backend/UserManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/controller/portal/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/PayInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/ShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/PayInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/java/com/mmall/demo/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/PayInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/ShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/demo/src/test/java/com/mmall/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +92,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mmall/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Springboot/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -150,7 +210,7 @@
       <updated>1568182322980</updated>
       <workItem from="1568182324485" duration="314000" />
       <workItem from="1568182833838" duration="8123000" />
-      <workItem from="1568257391809" duration="957000" />
+      <workItem from="1568257391809" duration="7407000" />
     </task>
     <servers />
   </component>
@@ -169,5 +229,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
