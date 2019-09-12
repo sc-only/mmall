@@ -114,8 +114,8 @@
       sort_order = #{sortOrder,jdbcType=INTEGER},
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = now()
-    where id = #{id,jdbcType=INTEGER}
-  </update>
+      where id = #{id,jdbcType=INTEGER}`
+    </update>`
 
   <select id="selectCategoryChildrenByParentId" resultMap="BaseResultMap" parameterType="int">
     select
