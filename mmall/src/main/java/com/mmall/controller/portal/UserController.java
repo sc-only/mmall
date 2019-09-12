@@ -1,6 +1,7 @@
 package com.mmall.controller.portal;
 
 import com.mmall.common.Const;
+import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
@@ -88,7 +89,7 @@ public class UserController {
     @ResponseBody
     public ServerResponse<User> update_information(HttpSession session,User user){
         User currentUser =(User)session.getAttribute(Const.CURRENT_USER);
-        if(user==null){
+        if(currentUser==null){
             return ServerResponse.createByErrorMessage("用户未登陆");
         }
         user.setId((currentUser.getId()));
@@ -98,5 +99,14 @@ public class UserController {
             session.setAttribute(Const.CURRENT_USER,response.getData());
         }
         return response;
+    }
+    @RequestMapping(value = "get_information.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServerResponse<User> get_information(HttpSession session){
+        User currentUser =(User)session.getAttribute(Const.CURRENT_USER);
+        if(currentUser==null){
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"未登陆，需要强制登录status=10");
+        }
+        return iUserService.getInformation(currentUser.getId());
     }
 }
