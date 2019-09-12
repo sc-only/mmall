@@ -2,6 +2,8 @@ package com.mmall.demo.pojo;
 
 import javax.persistence.Entity;
 import java.util.Date;
+import java.util.Objects;
+
 public class Category {
     private Integer id;
 
@@ -85,5 +87,18 @@ public class Category {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Category category = (Category) o;
+        return Objects.equals(id, category.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }
