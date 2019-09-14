@@ -1,5 +1,6 @@
 package com.mmall.demo.service.Impl;
 
+import com.mmall.demo.common.ResponseCode;
 import com.mmall.demo.common.ServerResponse;
 import com.mmall.demo.dao.ProductMapper;
 import com.mmall.demo.pojo.Product;
@@ -37,5 +38,19 @@ public class ProductServiceImpl implements IProductService {
             }
         }
         return ServerResponse.createByErrorMessage("新增或更新产品参数不正确");
+    }
+
+    public ServerResponse<String> serSaleStatus(Integer productId,Integer status){
+        if(productId==null||status==null){
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.ILLEGAL_ARGUMENT.getCode(),ResponseCode.ILLEGAL_ARGUMENT.getDesc());
+        }
+        Product product = new Product();
+        product.setId(productId);
+        product.setStatus(status);
+        int rowCount = productMapper.updateByPrimaryKeySelective(product);
+        if(rowCount>0){
+            return ServerResponse.createBySuccess("修改产品销售状态成功");
+        }
+        return ServerResponse.createByErrorMessage("修改产品销售状态失败");
     }
 }
