@@ -7,7 +7,6 @@ import com.mmall.demo.dao.CategoryMapper;
 import com.mmall.demo.pojo.Category;
 import com.mmall.demo.service.ICategoryService;
 import org.apache.commons.lang3.StringUtils;
-import org.checkerframework.checker.units.qual.C;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
