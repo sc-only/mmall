@@ -81,11 +81,6 @@
             <artifactId>joda-time</artifactId>
             <version>2.10.3</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-servlet-api</artifactId>
-            <version>7.0.64</version>
-        </dependency>
 
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -127,13 +122,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>20.0</version>
-        </dependency>
-
-
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
@@ -153,13 +141,6 @@
             <version>4.12</version>
             <!--<scope>test</scope>-->
         </dependency>
-
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.3</version>
-        </dependency>
-
 
         <!-- id加密解密 -->
         <dependency>
